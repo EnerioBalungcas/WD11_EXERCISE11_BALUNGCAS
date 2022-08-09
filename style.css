@@ -2,37 +2,27 @@ body{
     background-color: rgb(2, 2, 95);
 }
 
-.headingOneStyle{
-   color: green;
-   text-align: center;
-   font-size: 30px;
-   font-weight: bold;
-
+.banner{
+    background-image:linear-gradient(to bottom, #E1E1E1, #E19004,#02025F);
 }
 
-.headingTwoStyle{
-    color: rgb(30, 9, 148);
-    font-weight: bolder;
-    font-size: 40px;
-    background-color: whitesmoke;
-    text-align: center;
+.bannerImage{
+    height:40px; width:65%;
 }
-#fixedHeader{
-    width: 100%;
-    top: 0;
-    background-color: white;
-    position: fixed;
-    text-align: center;
-    height: 10px;
-    z-index: 10000;   
-    
+
+.favBooks{
+    width:25%;
 }
+
 .hoverImage:hover{
     display:block;
     transform: scale(1.2);
     transform-style:flat;
     transition-delay: 0.4s;
     transition-duration: 0.8s;
+}
+.cardHeader{
+    color:red; font-weight: bolder;
 }
 
 /* .fa{font-family:var(--fa-style-family,"Font Awesome 6 Free");font-weight:var(--fa-style,900)}
