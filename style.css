@@ -11,18 +11,23 @@ body{
 }
 
 .favBooks{
-    width:25%;
+    padding:10px;
 }
 
 .hoverImage:hover{
     display:block;
-    transform: scale(1.2);
+    transform: scale(1.1);
     transform-style:flat;
     transition-delay: 0.4s;
-    transition-duration: 0.8s;
+    transition-duration: 0.9s;
 }
 .cardHeader{
     color:red; font-weight: bolder;
+}
+
+.socials{
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 /* .fa{font-family:var(--fa-style-family,"Font Awesome 6 Free");font-weight:var(--fa-style,900)}
